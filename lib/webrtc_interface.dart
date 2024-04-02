@@ -3,6 +3,7 @@ library webrtc_interface;
 export 'src/enums.dart';
 export 'src/factory.dart';
 export 'src/frame_cryptor.dart';
+export 'src/local_media_recorder.dart';
 export 'src/media_recorder.dart';
 export 'src/media_stream.dart';
 export 'src/media_stream_track.dart';

@@ -1,3 +1,5 @@
+import 'package:webrtc_interface/src/local_media_recorder.dart';
+
 import 'frame_cryptor.dart';
 import 'media_recorder.dart';
 import 'media_stream.dart';
@@ -18,6 +20,8 @@ abstract class RTCFactory {
   Future<RTCRtpCapabilities> getRtpReceiverCapabilities(String kind);
 
   MediaRecorder mediaRecorder();
+
+  ILocalMediaRecorder localMediaRecorder();
 
   VideoRenderer videoRenderer();
 
